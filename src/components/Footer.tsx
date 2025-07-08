@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { GraduationCap, Phone, Mail, MapPin, Facebook, Twitter, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Twitter, Instagram } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -10,7 +10,11 @@ export const Footer = () => {
           {/* School Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <GraduationCap className="h-6 w-6 text-green-400" />
+              <img 
+                src="/lovable-uploads/6dac8a0c-45e8-44a7-9bb5-035aaf56dfaa.png" 
+                alt="Manba'ul Hikma Academy Logo" 
+                className="h-8 w-8 object-contain"
+              />
               <span className="text-lg font-bold">Manba'ul Hikma</span>
             </div>
             <p className="text-slate-300 text-sm">

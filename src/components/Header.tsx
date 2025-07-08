@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const Header = () => {
@@ -34,7 +34,11 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <GraduationCap className="h-8 w-8 text-primary" />
+            <img 
+              src="/lovable-uploads/6dac8a0c-45e8-44a7-9bb5-035aaf56dfaa.png" 
+              alt="Manba'ul Hikma Academy Logo" 
+              className="h-10 w-10 object-contain"
+            />
             <span className="text-xl font-bold text-primary">Manba'ul Hikma</span>
           </Link>
 
