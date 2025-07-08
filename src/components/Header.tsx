@@ -35,7 +35,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/lovable-uploads/6dac8a0c-45e8-44a7-9bb5-035aaf56dfaa.png" 
+              src="/lovable-uploads/5067e2d3-71a8-48a4-957a-6dbb5b1aaedc.png" 
               alt="Manba'ul Hikma Academy Logo" 
               className="h-10 w-10 object-contain"
             />
